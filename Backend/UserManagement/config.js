@@ -5,7 +5,7 @@ const tokenExpireAfter = '5h';
 const hostIP = 'localhost';
 const hostPORT = '5000';
 const emailUser = 'beeplus.softwarendcreative@outlook.com';
-const emailPw = 'bEEpLusOutlookPwd13@#!';
+const emailPw = '';
 
 //Database credentials and connection links
 db = {
