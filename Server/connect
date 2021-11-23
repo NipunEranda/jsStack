@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Server created on 13/11/2021
+
+sudo ssh -i "beeplusdb.pem" ubuntu@ec2-3-90-204-186.compute-1.amazonaws.com

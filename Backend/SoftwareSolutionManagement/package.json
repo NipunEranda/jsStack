@@ -1,0 +1,24 @@
+{
+    "name": "softwaresolutionmanagementapi",
+    "version": "1.0.0",
+    "description": "Software Solution Management API",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "nodemailer": "^6.7.0",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.1.6",
+        "sync-sql": "^1.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
