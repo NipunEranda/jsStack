@@ -1,0 +1,20 @@
+{
+  "name": "baseapp",
+  "version": "1.0.0",
+  "description": "Electron Base App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Base App\"",
+    "lin": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --prune=true --out=release-builds"
+  },
+  "author": "Nipun Amarasekara",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^14.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.4.0"
+  }
+}
